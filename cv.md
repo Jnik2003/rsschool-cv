@@ -58,4 +58,27 @@ qualiﬁcation "Web designer, web developer"
 ##### PHP Stage 2
 Dec.2020 - Jan.2021
 Improved my knowledge of the basics of PHP. The project was completed using routing and MySQL
+***
+#### SKILLS
+***
+Javascript &#9733;&#9733;&#9734;&#9734;&#9734;
+
+PHP &#9733;&#9733;&#9734;&#9734;&#9734;
+
+MySQL &#9733;&#9734;&#9734;&#9734;&#9734;
+
+HTML &#9733;&#9733;&#9734;&#9734;&#9734;
+
+CSS &#9733;&#9733;&#9734;&#9734;&#9734;
+
+Git &#9733;&#9734;&#9734;&#9734;&#9734;
+
+SASS &#9733;&#9733;&#9734;&#9734;&#9734;
+
+***
+#### LANGUAGES
+***
+English &#9733;&#9734;&#9734;&#9734;&#9734;
+
+Lithuanian &#9733;&#9733;&#9734;&#9734;&#9734;
 
