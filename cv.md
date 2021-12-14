@@ -39,4 +39,23 @@ Conducting contractual activities, developing job responsibilities, and other do
 the operation of the enterprise. Support of the General Director in negotiations. Independent participation 
 in negotiations.
 Recruitment, interviews.
+***
+#### EDUCATION
+***
+#### Daugavpils Higher Aviation Engineering School  | Daugavpils, Latvia
+##### Radio electronics , Radio Engineer
+Aug.1988 - May.1993
+Here, for the ﬁrst time, I seriously started programming in Basic and Pascal. Applied in the diploma project
+#### ITMO University  | Saint-Petersburg, Russia
+##### Web design, web development , Web designer, web developer
+Oct.2019 - Oct.2020
+I studied web design (Photoshop, Corel Draw, Adobe Illustrator, Adobe Indesign, the basics of composition, 
+typography, practical design). Also, web development. HTML, CSS. Languages Javascript, PHP. Databases MySQL. Layout 
+technologies (Bootstrap, Flexbox, Grid, Pixel perfect, SASS, Gulp), GIT, UI/UX, website promotion. I 
+defended the diploma project "Website development of the company PROTON LLC" and received the 
+qualiﬁcation "Web designer, web developer"
+#### Online courses of ItGid by Alexander Lushchenko  | Saint-Petersburg, Russia
+##### PHP Stage 2
+Dec.2020 - Jan.2021
+Improved my knowledge of the basics of PHP. The project was completed using routing and MySQL
 
