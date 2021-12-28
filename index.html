@@ -1,11 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CV. Cross-Check</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900" rel="stylesheet">
+    <link rel="stylesheet" href="js/styles/github.min.css">
+    <script src="js/highlight.min.js"></script>
+    <script>
+    hljs.highlightAll();
+    </script>
+    <title>My CV</title>
 </head>
+
 <body>
-	
+    <header class="header">
+        <div class="header-wrap">
+            <nav class="nav">
+                <div class="nav-btn">
+                    <span class="nav-btn__span nav-btn__span--1">.</span>
+                    <span class="nav-btn__span nav-btn__span--2">.</span>
+                    <span class="nav-btn__span nav-btn__span--3">.</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="#About">About me</a></li>
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="#Education">Education</a></li>
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="#Work">Work Experience</a></li>
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="#Code">Code example</a></li>
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="#Projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="left-side">
+            <div class="left-side__wrap">
+                <figure class="left-side__figure">
+                    <img src="./assets/img/photo.jpg" alt="My photo" class="left-side__img">
+                    <figcaption class="left-side__figcaption">
+                        <cite class="text-white">"Do or die!"</cite>
+                    </figcaption>
+                </figure>
+                <section class="left-side__contacts" id="Contacts">
+                    <h2 class="h2-title text-white">Contacts</h2>
+                    <address class="left-side__address">
+                        <ul class="left-side__list text-white">
+                            <li class="left-side__list-item left-side__list-item-town">Saint-Petersburg, Russia</li>
+                            <li class="left-side__list-item left-side__list-item-email"><a href="mailto:kaunas16@gmail.com">kaunas16@gmail.com</a></li>
+                            <li class="left-side__list-item left-side__list-item-phone"><a href="tel:+79111243222">+7 911 124 32 22</a></li>
+                            <li class="left-side__list-item left-side__list-item-git"><a href="https://github.com/Jnik2003">GitHub Jnik2003</a></li>
+                            <li class="left-side__list-item left-side__list-item-discord"><a href="https://discordapp.com/users/Boris_animal#9617/">Boris_animal#9617</a></li>
+                        </ul>
+                    </address>
+                </section>
+                <section class="left-side__languages">
+                    <h2 class="h2-title text-white">Languages</h2>
+                    <ul class="left-side__list text-white">
+                        <li class="left-side__list-item left-side__list-item-one">Russian - native</li>
+                        <li class="left-side__list-item left-side__list-item-two">English - A2</li>
+                        <li class="left-side__list-item left-side__list-item-three">Lithuanian - A2</li>
+                    </ul>
+                </section>
+                <section class="left-side__progress">
+                    <h2 class="h2-title text-white">Skills</h2>
+                    <ul class="left-side__skills">
+                    </ul>
+                </section>
+                <section class="left-side__hobbies">
+                    <h2 class="h2-title text-white">Hobbies</h2>
+                    <div class="left-side__hobbies-items">
+                        <img src="./assets/svg/Coding.svg" alt="Coding" class="left-side__icon">
+                        <img src="./assets/svg/Photo.svg" alt="Photo" class="left-side__icon">
+                        <img src="./assets/svg/Cycling.svg" alt="Cycling" class="left-side__icon">
+                        <img src="./assets/svg/Family.svg" alt="Family" class="left-side__icon">
+                    </div>
+                </section>
+            </div>
+            <div class="left-side__button">
+            </div>
+        </div>
+        <div class="right-side">
+            <section class="intro" id="About">
+                <h1>Georgii Nikitinas</h1>
+                <h2 class="h2-title text-accent text-accent-bold  mb0">Head of the service center</h2>
+                <h2 class="h2-title text-accent text-accent-bold mb40 mt10">Frontend developer</h2>
+                <p class="text-dark">
+                    I am currently studying frontend development. In the future, I hope to change my field of activity and engage in coding at a professional level. I am diligent, hardworking and disciplined. I have completed several commercial projects for my friends
+                </p>
+            </section>
+            <section class="info" id="Education">
+                <h2 class="info__title text-white">Education</h2>
+                <div class="info__block">
+                    <p class="info__year text-dark">Sep.2021 - Nov.2021</p>
+                    <p class="info__agency text-accent-bold">Online courses at RSSchool from EPAM Stage1 | HTML, CSS, Javascript, Git, Webpack</p>
+                    <p class="info__description text-dark">
+                        I studied Javascript, HTML, Css, Git, Webpack. Completed several training projects. Raised the professional level
+                    </p>
+                </div>
+                <div class="info__block">
+                    <p class="info__year text-dark">Dec.2020 - Jan.2021</p>
+                    <p class="info__agency text-accent-bold">Online courses of ItGid by Alexander Lushchenko | PHP</p>
+                    <p class="info__description text-dark">
+                        Improved my knowledge of the basics of PHP. The project was completed using routing and MySQL
+                    </p>
+                </div>
+                <div class="info__block">
+                    <p class="info__year text-dark">Oct.2019 - Oct.2020</p>
+                    <p class="info__agency text-accent-bold">ITMO University, Saint-Petersburg, Russia | Web design, web development</p>
+                    <p class="info__description text-dark">
+                        At ITMO I studied for professional retraining courses, studied web design (Photoshop, Corel Draw, Adobe Illustrator, Adobe Indesign, the basics of composition,
+                        typography, practical design), and also — web development. HTML, CSS. Languages Javascript, PHP. Databases MySQL. Layout
+                        technologies (Bootstrap, Flexbox, Grid, Pixel perfect, SASS, Gulp), GIT, UI/UX, website promotion. I
+                        defended the diploma project "Website development of the company PROTON LLC" and received the
+                        <span class="text-accent">qualiﬁcation "Web designer, web developer"</span>
+                    </p>
+                </div>
+                <div class="info__block">
+                    <p class="info__year text-dark">Aug.1988 - May.1993</p>
+                    <p class="info__agency text-accent-bold">Daugavpils Higher Aviation Engineering School, Daugavpils, Latvia | Radio electronics , Radio Engineer</p>
+                    <p class="info__description text-dark">
+                        I studied at the Faculty of Radio-electronic Equipment. For my course and diploma projects, I developed programs in the Basic programming language. I defended his thesis project and received the <span class="text-accent">qualification of "radio engineer"</span>
+                    </p>
+                </div>
+            </section>
+            <section class="info" id="Work">
+                <h2 class="info__title text-white">WORK EXPERIENCE</h2>
+                <div class="info__block">
+                    <p class="info__year text-dark"><b>Feb.2010 - Present</b></p>
+                    <p class="info__agency text-accent-bold">OOO PROTON | Saint-Petersburg, Russia</p>
+                    <p class="info__position text-accent">Head of the Service Department</p>
+                    <p class="info__description text-dark">
+                        Development of the company's website.
+                        Maintaining up-to-date information on the company's website. Photography for the site. Writing the text
+                        part.
+                        Maintenance of technical security systems (video surveillance, ACS, OPS) of customers under maintenance
+                        contracts in working condition. Assembly, repair of personal computers, servers based on Windows OS.
+                        Administration of the local network and servers, Active Directory. Setting up Wi-Fi routers, printers, and
+                        other oﬃce equipment. Antivirus protection, ﬁrewall, NAS. Setting up mail programs, registering domains.
+                        Installation and conﬁguration of software for various purposes, including 1C Accounting. Purchase of oﬃce
+                        equipment and components.
+                        Management of service staﬀ, labor organization, drawing up plans, conducting planning meetings. Visits to
+                        clients for negotiations.
+                        Conducting contractual activities, developing job responsibilities, and other documentation necessary for
+                        the operation of the enterprise. Support of the General Director in negotiations. Independent participation
+                        in negotiations.
+                        Recruitment, interviews
+                    </p>
+                    <p class="info__year text-accent">Achievements</p>
+                    <p class="info__description text-dark">
+                        The main achievement in this position is grateful customers. Maintenance was always carried out quickly and efficiently.
+                        On my own, I served many organizations, the largest "CJSC Industrial Point and CJSC Specremenergo".
+                        In technical terms - implemented a wireless access control system over the GSM network based on KODOS equipment
+                    </p>
+                </div>
+                <div class="info__block">
+                    <p class="info__year text-dark"><b>Oct.1994 - Jan.2010</b></p>
+                    <p class="info__agency text-accent-bold">Public agency | Saint-Petersburg, Russia</p>
+                    <p class="info__position text-accent">Senior Engineer-Head of the computing center</p>
+                    <p class="info__description text-dark">
+                        Working with databases. Development of software for working with databases in the programming language Micronetic Standart Mumps
+                        Maintaining the smooth operation of the ﬂeet of personal computers (approximately 50), servers (Windows
+                        OS, Novell). Computer repair (assembly and testing), installation and conﬁguration of operating systems,
+                        development of a local computer network (installation of a cable system, connection), maintenance of
+                        oﬃce equipment (printers, scanners, etc.). Implementation of information protection measures.
+                        Maintenance of material and technical accounting of computer equipment, arrival, write-oﬀ, reporting on
+                        the warehouse.
+                        Managing the work of employees of the computer center, organizing shifts, setting tasks, periodic
+                        reporting on the results of work. Drawing up development plans.
+                    </p>
+                    <p class="info__year text-accent">Achievements</p>
+                    <p class="info__description text-dark">
+                        Achievements in this position - I put into operation a computing center almost from scratch in the new building of the organization. Independently laid a local network and started servers.
+                        Together with a small team of developers, he created software for providing statistical information, which allowed to reduce the time of its preparation from 30 minutes to 3 minutes.
+                        Under my leadership, the computing center was recognized 3 times as the best in the North-Western region within our organizations.
+                    </p>
+                </div>
+            </section>
+            <section class="info" id="Code">
+                <h2 class="info__title text-white">Code example</h2>
+                <div class="info__block">
+                    <p class="info__description text-dark">Filtering the items array according to the values of the filter array - activeFilterParams</p>
+                    <pre class="pre">
+            <code class="language-javascript">
+const activeFilterParams = {
+    color: 'red',
+    size: 'm',
+  };
+  const items = [
+    {
+      id: 1,
+      color: 'red',
+      size: 'm',
+      sex: 'man',
+    },
+    {
+      id: 2,
+      color: 'blue',
+      size: 'm',
+      sex: 'woman',
+    },    
+  ];
+
+  const filter = (items, params) => {
+    if (items.length === 0) {
+      return items;
+    }
+    const paramKeys = Object.keys(params);
+    return items.filter((item) => {
+      return paramKeys.every((paramKey) => item[paramKey] === params[paramKey]);
+    })
+  };
+
+  filter(items, activeFilterParams);
+            </code>
+        </pre>
+                </div>
+            </section>
+            <section class="info mb100" id="Projects">
+                <h2 class="info__title text-white">My projects</h2>
+                <div class="info__grid">
+                    <div class="info__project">
+                        <img class="info__project-img" src="./assets/img/proton.jpg" alt="Proton">
+                        <div class="info__box">
+                            <p class="text-dark">Website of the company PROTON LLC. HTML, CSS, Javascript</p>
+                            <a class="info__link text-dark" href="https://proton.spb.su/" target="_blank" rel="nofollow noopener">View</a>
+                        </div>
+                    </div>
+                    <div class="info__project">
+                        <img class="info__project-img" src="./assets/img/taisykla.jpg" alt="Gutalinas">
+                        <div class="info__box">
+                            <p class="text-dark">Website of the shoemaking workshop. HTML, CSS, JAVASCRIPT, PHP, admin panel, MySQL database</p>
+                            <a class="info__link text-dark" href="https://taisykla.top/" target="_blank" rel="nofollow noopener">View</a>
+                        </div>
+                    </div>
+                    <div class="info__project">
+                        <img class="info__project-img" src="./assets/img/forma.jpg" alt="Clothing for guards">
+                        <div class="info__box">
+                            <p class="text-dark">Website clothing for guards. HTML, CSS, JAVASCRIPT, PHP, MySQl, admin panel, basket</p>
+                            <a class="info__link text-dark" href="https://formaoxrany.ru/" target="_blank" rel="nofollow noopener">View</a>
+                        </div>
+                    </div>
+                    <div class="info__project">
+                        <img class="info__project-img" src="./assets/img/louvre.jpg" alt="Louvre">
+                        <div class="info__box">
+                            <p class="text-dark">Website — project at RSSchool EPAM, Louvre Museum. HTML, CSS, JAVASCRIPT. Ticket booking form</p>
+                            <a class="info__link text-dark" href="https://rolling-scopes-school.github.io/jnik2003-JSFE2021Q3/museum-dom/" target="_blank" rel="nofollow noopener">View</a>
+                        </div>
+                    </div>
+                    <div class="info__project">
+                        <img class="info__project-img" src="./assets/img/momentum.jpg" alt="momentum">
+                        <div class="info__box">
+                            <p class="text-dark">Project in RSSchool EPAM, Momentum application. HTML, CSS, JAVASCRIPT</p>
+                            <a class="info__link text-dark" href="https://jnik2003-momentum.netlify.app/#en" target="_blank" rel="nofollow noopener">View</a>
+                        </div>
+                    </div>
+                    <div class="info__project">
+                        <img class="info__project-img" src="./assets/img/art.jpg" alt="ArtQuiz">
+                        <div class="info__box">
+                            <p class="text-dark">Project in RSSchool EPAM, ArtQuiz application. HTML, CSS, JAVASCRIPT</p>
+                            <a class="info__link text-dark" href="https://rolling-scopes-school.github.io/jnik2003-JSFE2021Q3/artquz/" target="_blank" rel="nofollow noopener">View</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__item">
+                    <div class="footer__bg-img footer__bg-img--git">
+                        <a class="footer__link" href="https://github.com/Jnik2003" target="_blank" rel="nofollow noopener"></a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__year">2021</p>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__bg-img footer__bg-img--rsschol">
+                        <a class="footer__link" href="https://rs.school/js/" target="_blank" rel="nofollow noopener"></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script src="js/Skills.js"></script>
+    <!-- <script src="js/visitor.js"></script> -->
+    <script src="js/index.js"></script>
 </body>
+
 </html>
