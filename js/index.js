@@ -72,7 +72,7 @@ function openLeftSide() {
         body.style.overflow = '';
         leftSide.style.overflowY = 'hidden';
         closeBtn.classList.remove('show');
-        closeBtn.style.backgroundImage = 'url(.././assets/svg/more.svg)';
+        closeBtn.style.backgroundImage = 'url(./assets/svg/more.svg)';
         navBtn.style.display = 'flex';
 
     } else {
@@ -80,7 +80,7 @@ function openLeftSide() {
         leftSide.classList.add('open-left');
         body.style.overflow = 'hidden';
         leftSide.style.overflowY = 'scroll';
-        closeBtn.style.backgroundImage = 'url(.././assets/svg/close.svg)';
+        closeBtn.style.backgroundImage = 'url(./assets/svg/close.svg)';
         navBtn.style.display = 'none';
 
     }
