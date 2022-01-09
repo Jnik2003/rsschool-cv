@@ -16,7 +16,7 @@ new Skills('left-side__skills', `Internet marketing`, 3).render();
 new Skills('left-side__skills', `Web design`, 3).render();
 new Skills('left-side__skills', `System Administrator`, 5).render();
 new Skills('left-side__skills', `PC Maintenance`, 5).render();
-new Skills('left-side__skills', `Desctop Support`, 5).render();
+new Skills('left-side__skills', `Desktop Support`, 5).render();
 
 
 // btn more info
